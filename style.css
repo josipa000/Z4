@@ -1,0 +1,97 @@
+body {
+    background-size: cover;
+    background-image: url(background.jpeg);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+    
+}
+.header-img {
+    width: 100%;
+    height: 500px;
+    background: url(KristinHannah.jpg)
+}
+
+h1 { color: blueviolet;
+    text-align: center;
+}
+
+ul>li { color: purple; }
+
+
+a {color: purple;
+font-family: fantasy;
+}
+
+article {float: right;}
+
+h2 { color: purple;
+}
+
+h3 { color: purple;
+box-shadow:10px 10px 8px #554444;
+margin-left: 25px;}
+
+
+ol>li {font-family:fantasy;
+color: purple;
+}
+
+div> h2 {text-align: center;
+color: blueviolet;
+font-size: 40px;}
+
+pre {font-size: 30px;
+    font-family: cursive;
+padding: 2rem;}
+
+
+mark {background-color:khaki;
+color: darkmagenta;}
+
+#ulicakrijesnica {float: left; margin-right: 5rem;
+}
+
+hr {color: lawngreen;
+border: inset;}
+
+#ppleptira {float: right; padding-right: 2rem;}
+
+#Zimskivrt {width: 50rem;
+float: left;}
+
+#zimskivrtcitat {font-size: 40px;
+float: right;
+padding-bottom: 30px;}
+
+#zv {overflow:auto;}
+
+@keyframes boje {
+    0% {
+        color: darkmagenta;
+    }
+    50% {
+      color: lightblue;
+    } 
+    100% {
+        color: darkmagenta;
+    }
+}
+
+blockquote {text-align: center;
+font-family:monospace;
+color: rgb(170, 26, 74);}
+
+#animacija {
+    animation-name: boje;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+
+    
+    
+    
+    
